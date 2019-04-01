@@ -1,22 +1,26 @@
 var uppercase = "HELLO";
-//Defines the global variable 'uppercase'
-      //Assigns 'uppercase' the string 'HELLO'
+// Defines the global variable 'uppercase'
+      // Assigns 'uppercase' the string 'HELLO'
 
 var lowercase = "hello";
-//Defines the variable 'lowercase'
-//Assigns 'lowercase' the string 'hello'
+// Defines the global variable 'lowercase'
+      // Assigns 'lowercase' the string 'hello'
 
 function shout(string) {
   return string.toUpperCase();
 }
-//Defines the function 'shout' that accepts one parameter, 'string'
-//Using the toUpperCase() function, 'shout' returns the entered string in all caps
+// 1. Defines the function 'shout'
+      // 'shout' accepts one parameter, 'string'
+// 2. 'shout' returns the entered string
+      // The toUpperCase() function returns 'string' in all caps
 
 function whisper(string){
   return string.toLowerCase();
 }
-//Defines the function 'whisper' that accepts one parameter, 'string'
-//Using the toLowerCase() function, 'whisper' returns the entered string in lower case
+// 1. Defines the function 'whisper'
+      // 'whisper' accepts one parameter, 'string'
+// 2. Returns the entered string
+      // The toLowerCase() function returns 'string' in lowercase
 
 function logShout() {
  console.log("HELLO");
