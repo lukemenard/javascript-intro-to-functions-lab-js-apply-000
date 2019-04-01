@@ -22,10 +22,10 @@ function whisper(string){
 // 2. Returns the entered string
       // The toLowerCase() function returns 'string' in lowercase
 
-function logShout() {
- console.log("HELLO");
+function logShout(string) {
+ console.log(string.toUpperCase);
 }
-// 1. Defines the function 'logShout'
+// 1. Defines the function 'logShout' that logs one
       // 'logShout' accepts no parameters
 // 2. The function console.log tells 'logShout' to print the string "HELLO" in all caps
 
