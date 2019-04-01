@@ -1,6 +1,6 @@
 var uppercase = "HELLO";
 //Defines the global variable 'uppercase'
-//Assigns 'uppercase' the string 'HELLO'
+      //Assigns 'uppercase' the string 'HELLO'
 
 var lowercase = "hello";
 //Defines the variable 'lowercase'
