@@ -50,6 +50,6 @@ function sayHiToGrandma(string) {
 // 1. Defines the function 'sayHiToGrandma'
       // 'sayHiToGrandma' accepts one parameter, 'string'
 // 2. Executes control flow conditionals
-//If the entered string is relationally equal to the 'lowercase' variable ('hello'), the function returns the string 'I can't hear you!'
-//Otherwise, if the entered string is relationally equal to the 'uppercase' variable ('HELLO'), the function returns the string 'YES INDEED!'
-//If the entered string is relationally equal to the string 'I love you, Grandma', the function returns the string 'I love you too.'
+      // If statement: if the entered string is relationally equal to the 'lowercase' variable ('hello'), the function returns the string 'I can't hear you!'
+      // Else if statement: if the entered string is relationally equal to the 'uppercase' variable ('HELLO'), the function returns the string 'YES INDEED!'
+      //Else if statement: if the entered string is relationally equal to the string 'I love you, Grandma', the function returns the string 'I love you too.'
