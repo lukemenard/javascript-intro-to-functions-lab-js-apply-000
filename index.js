@@ -1,15 +1,15 @@
 var uppercase = "HELLO";
 // Defines the global variable 'uppercase'
-      // Assigns 'uppercase' the string 'HELLO'
+      // Assigns 'uppercase' the string 'HELLO' in all caps
 
 var lowercase = "hello";
 // Defines the global variable 'lowercase'
-      // Assigns 'lowercase' the string 'hello'
+      // Assigns 'lowercase' the string 'hello' in lowercase
 
 function shout(string) {
   return string.toUpperCase();
 }
-// 1. Defines the function 'shout'
+// 1. Defines the function 'shout' that will receive one argument and return it in all caps
       // 'shout' accepts one parameter, 'string'
 // 2. 'shout' returns the entered string
       // The toUpperCase() function returns 'string' in all caps
@@ -17,7 +17,7 @@ function shout(string) {
 function whisper(string){
   return string.toLowerCase();
 }
-// 1. Defines the function 'whisper'
+// 1. Defines the function 'whisper' that will receive one argument and return it in lowercase
       // 'whisper' accepts one parameter, 'string'
 // 2. Returns the entered string
       // The toLowerCase() function returns 'string' in lowercase
@@ -25,14 +25,16 @@ function whisper(string){
 function logShout() {
  console.log("HELLO");
 }
-//Defines the function 'logShout' that accepts no parameters
-//'logShout' prints the string "HELLO"
+// 1. Defines the function 'logShout'
+      // 'logShout' accepts no parameters
+// 2. The function console.log tells 'logShout' to print the string "HELLO" in all caps
 
 function logWhisper() {
  console.log("hello");
 }
-//Defines the function 'logWhisper' that accepts no parameters
-//logWhisper prints the string "hello"
+// 1. Defines the function 'logWhisper'
+      // 'logWhisper' accepts no parameters
+//2. The function console.log tells logWhisper to print the string "hello" in lowercase
 
 function sayHiToGrandma(string) {
   if (string === lowercase) {
