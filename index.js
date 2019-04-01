@@ -25,14 +25,14 @@ function whisper(string){
 function logShout() {
  console.log("HELLO");
 }
-// 1. Defines the function 'logShout' that logs one
+// 1. Defines the function 'logShout' that logs 'HELLO' in all caps
       // 'logShout' accepts no parameters
 // 2. The function console.log tells 'logShout' to print the string "HELLO" in all caps
 
 function logWhisper() {
  console.log("hello");
 }
-// 1. Defines the function 'logWhisper'
+// 1. Defines the function 'logWhisper' that logs 'hello' in lowercase
       // 'logWhisper' accepts no parameters
 //2. The function console.log tells logWhisper to print the string "hello" in lowercase
 
@@ -47,7 +47,8 @@ function sayHiToGrandma(string) {
     return "I love you, too.";
   }
 }
-//Defines the function 'sayHiToGrandma' that accepts one parameter, 'string'
+// 1. Defines the function 'sayHiToGrandma'
+      // 'sayHiToGrandma' accepts one parameter, 'string'
 //If the entered string is relationally equal to the 'lowercase' variable ('hello'), the function returns the string 'I can't hear you!'
 //Otherwise, if the entered string is relationally equal to the 'uppercase' variable ('HELLO'), the function returns the string 'YES INDEED!'
 //If the entered string is relationally equal to the string 'I love you, Grandma', the function returns the string 'I love you too.'
